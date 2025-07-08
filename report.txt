@@ -1,0 +1,19 @@
+
+# Report: Player Re-Identification – Internship Assignment
+
+## Task Overview:
+Detect and track football players in a single video stream. Maintain the same ID for each player across frames.
+
+## What I Did:
+- Used YOLOv8 Nano (`yolov8n.pt`) for lightweight, fast detection.
+- Ran detection on the first 10 frames of my video using Google Colab.
+- Saved the annotated outputs as individual image files.
+
+## Challenges:
+- Could not run full tracking (ID persistence) due to short video and no tracker.
+- Only detection was performed, but results were accurate.
+
+## Improvements (if extended):
+- Add a tracker like DeepSORT or ByteTrack.
+- Process the entire video.
+- Generate a final video output with ID overlays.
